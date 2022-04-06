@@ -1,13 +1,35 @@
 :root {
     --cabecalho-cor-bg: #000000;
+    --chamada-cor-bg: #1d75de;
     --fonte-padrao: 'Montserrat', 'sans-serif';
+    --botao-comecar-bg: #000000;
 }
 
-.body {
+body {
     font-family: var(--fonte-padrao);
 }
 
 .container {
     padding-left: 4%;
     padding-right: 4%;
+}
+
+.botao {
+    text-decoration: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: .9rem;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.botao--comecar {
+    border: 2px solid #000000;
+    color: #FFFFFF;
+    background-color: var(--botao-comecar-bg)
 }

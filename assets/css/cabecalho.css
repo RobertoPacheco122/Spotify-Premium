@@ -1,6 +1,6 @@
 .cabecalho {
-    display: flex;
     background-color: var(--cabecalho-cor-bg);
+    display: flex;
     padding: .8rem;
 }
 
