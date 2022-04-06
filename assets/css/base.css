@@ -1,3 +1,13 @@
 :root {
     --cabecalho-cor-bg: #000000;
+    --fonte-padrao: 'Montserrat', 'sans-serif';
+}
+
+.body {
+    font-family: var(--fonte-padrao);
+}
+
+.container {
+    padding-left: 4%;
+    padding-right: 4%;
 }
