@@ -1,0 +1,9 @@
+.cabecalho {
+    display: flex;
+    background-color: var(--cabecalho-cor-bg);
+    padding: .8rem;
+}
+
+.cabecalho__logo {
+    width: 85px;
+}
