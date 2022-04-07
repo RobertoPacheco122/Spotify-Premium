@@ -1,0 +1,56 @@
+.beneficios {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.beneficios__titulo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2.5rem;
+    align-self: center;
+}
+
+.beneficios__item {
+    display: flex;
+    margin-bottom: 3.5rem;
+}
+
+.beneficios__titulo--lista {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.beneficios__texto {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.beneficios__imagem {
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.beneficios__conteudo {
+    flex-grow: 1;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+.beneficios__imagem--primeira {
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43009302fbaf6259b4c117c704f");
+}
+
+.beneficios__imagem--segunda {
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f43098292b95d24a697c20df5137");
+}
+
+.beneficios__imagem--terceira {
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f4306998d3ffd58aad6da6afdf67");
+}
+
+.beneficios__imagem--quarta {
+    background-image: url("https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012");
+}
