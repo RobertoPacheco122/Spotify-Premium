@@ -15,8 +15,9 @@
     text-align: initial;
 }
 
-.planos__texto-cartao {
-    
+.planos__texto--cartao, .planos__texto--conta {
+    font-size: 1rem;
+    margin-bottom: .7rem;
 }
 
 .planos__texto {
@@ -75,6 +76,10 @@
     box-shadow: 0 0 7px rgb(173, 172, 172);
 }
 
+.planos__cabecalho--cartao {
+    border-bottom: 1px solid black;
+}
+
 .planos__extras {
     display: inline-block;
     margin-bottom: .6rem;
@@ -95,3 +100,33 @@
     color:  rgb(46, 119, 208);
 }
 
+.planos__conteudo {
+    margin-top: 2rem;
+}
+
+
+
+.planos__item--cartao {
+    margin-bottom: 1rem;
+}
+
+.planos__item--cartao::before {
+    content: "✓ ";
+    margin-right: .4rem;
+}
+
+.planos__item--cartao:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.planos__botao {
+    margin-bottom: 1.5rem;
+}
+
+.planos__texto--advertencia {
+    font-size: .9rem;
+}
+
+.planos__texto--termos {
+    color: black;
+}
