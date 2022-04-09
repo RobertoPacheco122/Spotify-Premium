@@ -1,10 +1,11 @@
 :root {
+    --fonte-padrao: 'Montserrat', 'sans-serif';
     --cabecalho-cor-bg: #000000;
     --chamada-cor-bg: #1d75de;
-    --fonte-padrao: 'Montserrat', 'sans-serif';
     --botao-comecar-bg: #000000;
     --planos-cor-bg: #efefef;
     --planos-cartao-cor-bg: #FFFFFF;
+    --rodape-cor-bg:#000000;
 }
 
 body {
@@ -34,4 +35,8 @@ body {
     border: 2px solid #000000;
     color: #FFFFFF;
     background-color: var(--botao-comecar-bg)
+}
+
+.logo__spotify {
+    width: 85px; 
 }

@@ -1,0 +1,102 @@
+.rodape {
+    background-color: var(--rodape-cor-bg);
+    padding-top: 2rem;
+    color: #FFFFFF;
+    font-size: .9rem;
+}
+
+.rodape__principal {
+    margin-bottom: 3.5rem;
+    margin-top: 2.5rem;
+}
+
+.rodape__sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rodape__titulo {
+    text-transform: uppercase;
+    color: #919496;
+}
+
+.rodape__navegacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.rodape__link {
+    margin-top: 1.5rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.rodape__link:last-child {
+    margin-bottom: 2rem;
+}
+
+.rodape__lista--sociais {
+    display: flex;
+
+}
+
+.rodape__img {
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+}
+
+.rodape__img--instagram {
+    background-image: url("../img/instagram-logo.png");
+}
+
+.rodape__img--twitter {
+    background-image: url("../img/twitter-logo.png");
+}
+
+.rodape__img--facebook {
+    background-image: url("../img/facebook-logo.png");
+}
+
+.rodape__pais {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+.rodape__texto {
+    font-size: .6rem;
+}
+
+.rodape__pais, .rodape__infos {
+    color: #919496;
+}
+
+.rodape__infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape__lista--infos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 215px;
+    height: 100px;
+}
+
+.rodape__link--infos {
+    font-size: 0.6rem;
+    text-decoration: none;
+    color: #919496;
+}
+
+.rodape__link--infos {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
