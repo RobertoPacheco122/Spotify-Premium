@@ -1,0 +1,97 @@
+.planos {
+    background-color: var(--planos-cor-bg);
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.planos__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.planos__titulo--cartao {
+    text-align: initial;
+}
+
+.planos__texto-cartao {
+    
+}
+
+.planos__texto {
+    text-align: center;
+    font-size: .9rem;
+    margin-bottom: 1rem;
+}
+
+.planos__img {
+    width: 29px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: .3rem;
+}
+
+.planos__lista--bandeira {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.planos__item--outros {
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.planos__img--visa {
+    background-image: url("https://content-tooling.spotifycdn.com/images/52f004ea-a49a-420b-8dca-14f5304ff4bf_visa.svg");
+}
+
+.planos__img--mastercard {
+    background-image: url("https://content-tooling.spotifycdn.com/images/3a865441-c6d4-4f92-a4be-6c96c0e96d1f_mastercard.svg");
+}
+
+.planos__img--americanEx {
+    background-image: url("https://content-tooling.spotifycdn.com/images/d4dd3e5b-f7d9-4cd0-80f1-b65f19c5e55c_amex.svg");
+}
+
+.planos__img--elo {
+    background-image: url("https://content-tooling.spotifycdn.com/images/0a5cdc06-7024-4d04-999f-18e8b225b581_elo.svg");
+}
+
+.planos__img--hipercard {
+    background-image: url("https://content-tooling.spotifycdn.com/images/46c5bd7a-bdb3-43a8-916d-889887b02d80_hiper.svg");
+}
+
+.planos__cartao {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--planos-cartao-cor-bg);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0 0 7px rgb(173, 172, 172);
+}
+
+.planos__extras {
+    display: inline-block;
+    margin-bottom: .6rem;
+    border-radius: 5px;
+    font-size: .9rem;
+    padding: .3rem;
+    font-weight: 500;
+}
+
+.planos__extras--mes {
+    background-color: rgb(46, 119, 208);
+    color: #FFFFFF;
+    border: 1px solid transparent;
+}
+
+.planos__extras--pagamento {
+    border: 1px solid rgb(46, 119, 208);
+    color:  rgb(46, 119, 208);
+}
+
