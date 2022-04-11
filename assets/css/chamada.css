@@ -21,6 +21,11 @@
     margin-bottom: 1rem;
 }
 
+.chamada__botao {
+    display: flex;
+    flex-direction: column;
+}
+
 .chamada__botao--comecar {
     margin-bottom: .7rem;
 }
@@ -37,3 +42,29 @@
     margin-bottom: 2rem;
 }
 
+@media screen and (min-width: 768px){
+    .chamada__titulo {
+        font-size: 2rem;
+    }
+
+    .chamada__texto {
+        font-size: 1.3rem;
+    }
+
+    .chamada__botao {
+        flex-direction: row;
+    }
+
+    .chamada__botao--comecar, .chamada__botao--planos {
+        width: 150px;
+    }
+
+    .chamada__botao--comecar {
+        margin-right: 1rem;
+        margin-bottom: 1.9rem;
+    }
+
+    .chamada__texto--advertencia {
+        font-size: .7rem;
+    }
+}
