@@ -8,6 +8,8 @@
 .rodape__principal {
     margin-bottom: 3.5rem;
     margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .rodape__sobre {
@@ -99,4 +101,20 @@
 .rodape__link--infos {
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:768px) {
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .rodape__sobre:last-child {
+        margin-right: 2rem;
+    }
+
+    .rodape__lista--infos {
+        width: auto;
+        height: 50px;
+    }
 }
