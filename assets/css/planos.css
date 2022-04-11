@@ -66,6 +66,12 @@
     background-image: url("https://content-tooling.spotifycdn.com/images/46c5bd7a-bdb3-43a8-916d-889887b02d80_hiper.svg");
 }
 
+.planos__cartoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .planos__cartao {
     display: flex;
     flex-direction: column;
@@ -104,8 +110,6 @@
     margin-top: 2rem;
 }
 
-
-
 .planos__item--cartao {
     margin-bottom: 1rem;
 }
@@ -129,4 +133,29 @@
 
 .planos__texto--termos {
     color: black;
+}
+
+@media screen and (min-width: 768px){
+
+    .planos {
+        padding-bottom: 5rem;
+    }
+
+    .planos__cabecalho {
+        margin-top: 3rem;
+    }
+
+    .planos__titulo--cabecalho {
+        font-size: 2rem;
+    }
+
+    .planos__cartoes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planos__cartao {
+        max-width: 60%;
+    }
 }
