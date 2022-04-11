@@ -54,3 +54,20 @@
 .beneficios__imagem--quarta {
     background-image: url("https://i.scdn.co/image/ab671c3d0000f430cd6c528745e510c5be63a012");
 }
+
+
+@media screen and (min-width: 768px){
+    .beneficios__titulo--cabecalho {
+        font-size: 2rem;
+    }
+
+    .beneficios__lista {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .beneficios__item {
+        width: 45%;
+    }
+}
