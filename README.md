@@ -1,5 +1,11 @@
 # Spotify-Premium
 
+Esse projeto tem por simples objetivo a criação de uma página Web, utilizando somente HTML e CSS, para consolidar e exercitar os conhecimentos obtidos em ambas ferramentas.
+
+Link para o site: https://www.spotify.com/br/premium/?utm_source=br-pt_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_latam_br_premiumbusiness_core_brand+contextual-desktop+text+exact+br-pt+google&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGr4hg3MkqXo3z6xgUUDZErePQlnomLEOzYSIDlURZMJ1B398VNCUgRoC-0EQAvDBwE&gclsrc=aw.ds
+
+OBS!!! Parece que o layout do site é alterado frequentemente, portanto, dependendo do momento em que você checar o link a página terá uma aparência completamente diferente do layout que clonei.
+
 ### Ferramentas utilizadas
 
 <ul>
