@@ -1,7 +1,57 @@
 .cabecalho {
+    align-items: center;
     background-color: var(--cabecalho-cor-bg);
     display: flex;
+    justify-content: space-between;
     padding-top: .8rem;
     padding-bottom: .8rem;
 }
 
+.cabecalho__navegacao {
+    display: none;
+}
+
+.cabecalho__link {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: .9rem;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.cabecalho__link:nth-child(3){
+    border-right: 1px solid #FFFFFF;
+    padding-right: 1.5rem;
+}
+
+.cabecalho__link:last-child{
+    margin-right: 0;
+}
+
+.cabecalho__menu {
+    height: 20px;
+    width: 30px;
+}
+
+.cabecalho__barra {
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    margin-bottom: 7px;
+    height: 3px;
+    width: 100%;
+}
+
+.cabecalho__barra:last-child {
+    margin-bottom: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .cabecalho__navegacao {
+        display: unset;
+    }
+
+    .cabecalho__menu {
+        display: none;
+    }
+}
