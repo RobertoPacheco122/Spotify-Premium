@@ -40,3 +40,20 @@ body {
 .logo__spotify {
     width: 85px; 
 }
+
+@media screen and (min-width: 768px) {
+    .logo__spotify {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo__spotify {
+        width: 125px;
+    }
+
+    .container {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+}
