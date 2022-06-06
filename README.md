@@ -4,7 +4,7 @@ Esse projeto tem por simples objetivo a criação de uma página Web, utilizando
 
 Link para o site: https://www.spotify.com/br/premium/?utm_source=br-pt_brand_contextual-desktop_text&utm_medium=paidsearch&utm_campaign=alwayson_latam_br_premiumbusiness_core_brand+contextual-desktop+text+exact+br-pt+google&gclid=CjwKCAjwrqqSBhBbEiwAlQeqGr4hg3MkqXo3z6xgUUDZErePQlnomLEOzYSIDlURZMJ1B398VNCUgRoC-0EQAvDBwE&gclsrc=aw.ds
 
-OBS!!! Aparentemente o layout do site é alterado com frequência, portanto, dependendo da data que você checar o link acima, a aparência do site seja totalmente do layout que foi clonado nesse projeto.
+OBS!!! Aparentemente o layout do site é alterado com frequência, portanto, dependendo da data que você checar o link acima, a aparência do site será totalmente do layout que foi clonado nesse projeto.
 
 ### Ferramentas utilizadas
 
